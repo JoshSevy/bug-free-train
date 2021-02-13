@@ -13,5 +13,8 @@
     "HTML"
   ],
   "author": "Joshua Sevy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
