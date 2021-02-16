@@ -29,10 +29,11 @@
 
   &__image {
     height: 100%;
-    transform: translateX(-4rem);
+    transform: translateX(-4rem) scale(1.4);
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
+    transition: all .5s;
   }
 
   &__text {
@@ -61,7 +62,8 @@
   }
 
   &:hover &__image {
-
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(60%);
   }
 
 }
