@@ -24,7 +24,7 @@
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     z-index: 1000;
 
-    // transform: scale(80);
+    transform: scale(80);
   }
 
   &__nav {
@@ -40,7 +40,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    // Create mix in for repeative elements
+    // Create mix in for repetitive elements
     transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
@@ -50,5 +50,10 @@
   }
 
   &__link {
+    font-size: 3rem;
+    font-weight: 300;
+    color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }
