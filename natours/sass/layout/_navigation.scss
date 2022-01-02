@@ -44,12 +44,8 @@
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   &__list {
-    position: absolute;
+    @include absCenter;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    // Create mix in for repetitive elements
-    transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
   }
